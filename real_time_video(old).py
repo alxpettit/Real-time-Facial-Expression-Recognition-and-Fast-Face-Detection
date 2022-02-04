@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from keras.preprocessing.image import img_to_array
 import imutils
 import cv2
