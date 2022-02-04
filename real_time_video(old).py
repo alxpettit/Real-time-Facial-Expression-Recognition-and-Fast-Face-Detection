@@ -9,7 +9,8 @@ import time
 import tensorflow as tf
 # parameters for loading data and images
 detection_model_path = 'haarcascade_files/haarcascade_frontalface_default.xml'
-emotion_model_path = 'models/best_model/MUL_KSIZE_MobileNet_v2_best_bottleneck_prelu_0.5_16-0.68-0.69.hdf5'
+#emotion_model_path = 'models/best_model/MUL_KSIZE_MobileNet_v2_best_bottleneck_prelu_0.5_16-0.68-0.69.hdf5'
+emotion_model_path = 'models/best_model/MUL_KSIZE_MobileNet_v2_best.hdf5'
 # emotion_model_path = 'models/MobileNet-0.34-0.34.hdf5'
 # hyper-parameters for bounding boxes shape
 # loading models
