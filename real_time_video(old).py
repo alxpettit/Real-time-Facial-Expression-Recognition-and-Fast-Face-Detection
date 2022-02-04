@@ -88,7 +88,7 @@ while True:
         fps = 1 / seconds
     # fps=1
     cv2.putText(frameClone, "FPS: " + str('%.0f' % fps), (5, 15), cv2.FONT_HERSHEY_TRIPLEX, 0.5, (0, 0, 255),
-                1, False)
+                1, 0)
 
     cv2.imshow('your_face', frameClone)
     cv2.imshow("Probabilities", canvas)

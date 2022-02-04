@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8227d27b-afc1-4334-a94b-8262efaacea2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/real_time_video(old).py" beforeDir="false" afterPath="$PROJECT_DIR$/real_time_video(old).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +110,9 @@
     <option name="height" value="1092" />
   </component>
   <component name="ProjectId" id="24fFKUTJXu13mIoBTqm8uJ6WY7B" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -136,7 +138,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Pycharm_program/AudioProcess-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/real_time_video(old).py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.real_time_video(old)">
@@ -324,7 +326,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551776224462</updated>
       <workItem from="1644013675577" duration="73000" />
-      <workItem from="1644013797608" duration="47000" />
+      <workItem from="1644013797608" duration="385000" />
     </task>
     <servers />
   </component>
@@ -499,6 +501,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Real_time_Facial_Expression_Recognition_and_Fast_Face_Detection$ui_showimg_harr.coverage" NAME="ui_showimg_harr Coverage Results" MODIFIED="1644013714055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Real_time_Facial_Expression_Recognition_and_Fast_Face_Detection$real_time_video_old_.coverage" NAME="real_time_video(old) Coverage Results" MODIFIED="1644014179768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/local/lib/python3.5/dist-packages/keras/backend/tensorflow_backend.py" />
