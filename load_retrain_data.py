@@ -1,5 +1,6 @@
 import os, glob
 import cv2
+# requires keras ~2.1.0
 from keras.utils import to_categorical
 import numpy as np
 
