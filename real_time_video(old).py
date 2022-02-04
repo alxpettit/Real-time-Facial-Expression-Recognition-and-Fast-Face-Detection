@@ -5,10 +5,10 @@ import imutils
 import cv2
 from keras.models import load_model
 import numpy as np
-import keras.backend as K
+import keras.backend
 import time
 # from models.cnn import resize
-import tensorflow as tf
+import tensorflow
 
 # parameters for loading data and images
 detection_model_path = 'haarcascade_files/haarcascade_frontalface_default.xml'
@@ -17,9 +17,9 @@ emotion_model_path = 'models/best_model/MUL_KSIZE_MobileNet_v2_best.hdf5'
 # emotion_model_path = 'models/MobileNet-0.34-0.34.hdf5'
 # hyper-parameters for bounding boxes shape
 # loading models
-K.clear_session()
+keras.backend.clear_session()
 face_detection = cv2.CascadeClassifier(detection_model_path)
-emotion_classifier = load_model(emotion_model_path, compile=False, custom_objects={'tf': tf})
+emotion_classifier = load_model(emotion_model_path, compile=False, custom_objects={'tf': tensorflow})
 EMOTIONS = ["angry", "disgust", "scared", "happy", "sad", "surprised",
             "neutral"]
 
@@ -29,7 +29,7 @@ EMOTIONS = ["angry", "disgust", "scared", "happy", "sad", "surprised",
 
 # starting video streaming
 cv2.namedWindow('your_face')
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(2)
 # camera = cv2.VideoCapture("2018010301.mp4")
 
 while True:
@@ -90,7 +90,7 @@ while True:
     cv2.putText(frameClone, "FPS: " + str('%.0f' % fps), (5, 15), cv2.FONT_HERSHEY_TRIPLEX, 0.5, (0, 0, 255),
                 1, 0)
 
-    cv2.imshow('your_face', frameClone)
+    cv2.imshow('uwu', frameClone)
     cv2.imshow("Probabilities", canvas)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
