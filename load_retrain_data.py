@@ -1,8 +1,11 @@
-import os, glob
+import glob
+import os
+
 import cv2
-# requires keras ~2.1.0
-from keras.utils import to_categorical
 import numpy as np
+# See: https://github.com/tensorflow/tensorflow/issues/53144
+# noinspection PyUnresolvedReferences
+from tensorflow.keras.utils import to_categorical
 
 def preprocess_input(x, v2=True):
     x = x.astype('float32')
